@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dharshini K | Computer Science & Engineering Student Portfolio</title>
+  <meta name="description" content="Personal portfolio of Dharshini K, Computer Science & Engineering Student at Rajiv Gandhi College of Engineering and Technology. Exploring software development, web experiences, and creative design.">
+  <meta name="author" content="Dharshini K">
+  <meta name="theme-color" content="#070811">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Ambient Floating Spatial 3D Orbs -->
+  <div class="spatial-bg-container" aria-hidden="true">
+    <div class="spatial-orb spatial-orb-1"></div>
+    <div class="spatial-orb spatial-orb-2"></div>
+    <div class="spatial-orb spatial-orb-3"></div>
+  </div>
+
+  <!-- Ambient Cursor-following Light Halo Effect -->
+  <div id="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Sticky Glass Navigation Header -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Dharshini K Homepage">
+        Dharshini<span class="logo-dot"></span>K
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#hobbies" class="nav-link">Interests</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        
+        <!-- Left Hero Text & Call to Actions -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="hero-greeting">
+            <i class="fa-solid fa-code"></i> Developer & CSE Enthusiast
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Dharshini</span>.
+          </h1>
+
+          <div class="hero-subtitle">
+            Computer Science & Engineering Student
+          </div>
+
+          <p class="hero-intro">
+            I'm a motivated CSE student exploring programming, software engineering, creative design, and user-focused web experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Let's Connect</span>
+              <i class="fa-regular fa-paper-plane"></i>
+            </a>
+          </div>
+
+          <!-- Hero Metrics & Statistics Bar -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value text-gradient">7.92</span>
+              <span class="stat-label">Current CGPA</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">B.Tech CSE</span>
+              <span class="stat-label">Degree Goal</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">2024–2028</span>
+              <span class="stat-label">Academic Duration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual & Interactive Learn-Build-Improve Card -->
+        <div class="hero-card-container reveal-on-scroll">
+          <div class="glass-card hero-art-card tilt-3d">
+            <img src="assets/spatial_hero_art.png" alt="Dharshini K Creative Spatial Coding Artwork" class="hero-art-img" loading="eager">
+
+            <!-- Animated Step Flow Card -->
+            <div class="flow-card">
+              <div class="flow-title">Continuous Development Cycle</div>
+              <div class="flow-steps">
+                <div class="flow-line" aria-hidden="true">
+                  <div class="flow-line-progress" id="flow-progress"></div>
+                </div>
+
+                <div class="flow-step active" data-step="0">
+                  <div class="step-icon"><i class="fa-solid fa-book-open"></i></div>
+                  <span class="step-label">Learn</span>
+                </div>
+
+                <div class="flow-step" data-step="1">
+                  <div class="step-icon"><i class="fa-solid fa-cubes"></i></div>
+                  <span class="step-label">Build</span>
+                </div>
+
+                <div class="flow-step" data-step="2">
+                  <div class="step-icon"><i class="fa-solid fa-chart-line"></i></div>
+                  <span class="step-label">Improve</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-tag">About Me</div>
+        <h2 class="section-title">Curious mind. <span class="text-gradient">Builder mindset.</span></h2>
+        
+        <div class="about-grid">
+          
+          <!-- Bio Narrative -->
+          <div class="glass-card about-text-card reveal-on-scroll">
+            <p>
+              I am a Computer Science and Engineering student at Rajiv Gandhi College of Engineering and Technology driven by a passion for exploring new technologies and solving real-world problems.
+            </p>
+            <p>
+              My goal is to combine technical concepts with practical web development to build clean, functional, and user-centric digital applications. I thrive in team environments, enjoy learning continuously, and strive to transform ideas into impactful code.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="highlight-text">
+                  Enrolled in B.Tech CSE (2024–2028) with a strong foundation in core algorithms, object-oriented concepts, and web design basics.
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <div class="highlight-text">
+                  Focused on building user-centric interfaces and mental wellness platforms like Quinto.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- "What Drives Me" Card -->
+          <div class="glass-card drives-card reveal-on-scroll">
+            <div class="drives-header">
+              <h3 class="drives-title">What Drives Me</h3>
+              <p class="section-subtitle" style="margin-bottom:0; font-size:0.95rem;">The principles that shape my daily learning</p>
+            </div>
+
+            <ul class="drives-list">
+              <li class="drive-box">
+                <div class="drive-box-title">
+                  <i class="fa-solid fa-puzzle-piece"></i> Problem Solving
+                </div>
+                <div class="drive-box-desc">Breaking down complex challenges into step-by-step logic and structured code.</div>
+              </li>
+              <li class="drive-box">
+                <div class="drive-box-title">
+                  <i class="fa-solid fa-seedling"></i> Continuous Growth
+                </div>
+                <div class="drive-box-desc">Constantly expanding technical know-how across Python, Java, and modern web tech.</div>
+              </li>
+              <li class="drive-box">
+                <div class="drive-box-title">
+                  <i class="fa-solid fa-object-group"></i> Code + Design Synergy
+                </div>
+                <div class="drive-box-desc">Crafting experiences where visual aesthetics meet elegant implementation.</div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-tag">Technical Matrix</div>
+        <h2 class="section-title">Skills & <span class="text-gradient">Competencies</span></h2>
+        <p class="section-subtitle">A honest reflection of my technical foundation, design tools, and soft skills.</p>
+
+        <div class="skills-grid">
+          
+          <!-- Programming Languages -->
+          <div class="glass-card skill-category-card reveal-on-scroll">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fa-solid fa-code"></i></div>
+              <h3 class="skill-cat-title">Programming</h3>
+            </div>
+            <div class="skill-pills-container">
+              <div class="skill-badge">
+                <span class="skill-name">Python</span>
+                <span class="skill-level">Foundational</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Java</span>
+                <span class="skill-level">OOP Fundamentals</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web & Design Tools -->
+          <div class="glass-card skill-category-card reveal-on-scroll">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3 class="skill-cat-title">Web & Design</h3>
+            </div>
+            <div class="skill-pills-container">
+              <div class="skill-badge">
+                <span class="skill-name">HTML</span>
+                <span class="skill-level">Core Markup</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">CSS</span>
+                <span class="skill-level">Styling & Layout</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level">DOM & Logic</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Canva</span>
+                <span class="skill-level">Visual Graphics</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Video Editing</span>
+                <span class="skill-level">Beginner</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional Certifications/Tools -->
+          <div class="glass-card skill-category-card reveal-on-scroll">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <h3 class="skill-cat-title">Professional</h3>
+            </div>
+            <div class="skill-pills-container">
+              <div class="skill-badge">
+                <span class="skill-name">MS Office</span>
+                <span class="skill-level">Docs & Presentations</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">DCA</span>
+                <span class="skill-level">Diploma Applications</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="glass-card skill-category-card reveal-on-scroll">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon"><i class="fa-solid fa-user-check"></i></div>
+              <h3 class="skill-cat-title">Soft Skills</h3>
+            </div>
+            <div class="skill-pills-container">
+              <div class="skill-badge">
+                <span class="skill-name">Problem Solving</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Analytical Thinking</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Team Collaboration</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Attention to Detail</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Adaptability</span>
+              </div>
+              <div class="skill-badge">
+                <span class="skill-name">Learning Tech</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies & Creative Pursuits Section -->
+    <section class="hobbies" id="hobbies">
+      <div class="container">
+        <div class="section-tag">Beyond Code</div>
+        <h2 class="section-title">Creative Pursuits & <span class="text-gradient">Interests</span></h2>
+        <p class="section-subtitle">Exploring creative mediums, visual design, and digital content creation alongside engineering.</p>
+
+        <div class="hobbies-grid">
+          
+          <div class="glass-card hobby-card reveal-on-scroll">
+            <div class="hobby-icon-wrapper"><i class="fa-solid fa-palette"></i></div>
+            <h3 class="hobby-title">Graphic & Visual Design</h3>
+            <p class="hobby-desc">
+              Designing aesthetic visual assets, presentation graphics, and UI layouts using Canva and modern design tools.
+            </p>
+            <div class="hobby-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Canva & UI Styling</div>
+          </div>
+
+          <div class="glass-card hobby-card reveal-on-scroll">
+            <div class="hobby-icon-wrapper"><i class="fa-solid fa-video"></i></div>
+            <h3 class="hobby-title">Video Editing</h3>
+            <p class="hobby-desc">
+              Exploring beginner video editing techniques, sequencing, and visual storytelling for creative presentations.
+            </p>
+            <div class="hobby-tag"><i class="fa-solid fa-film"></i> Beginner Edits & Clips</div>
+          </div>
+
+          <div class="glass-card hobby-card reveal-on-scroll">
+            <div class="hobby-icon-wrapper"><i class="fa-solid fa-pen-nib"></i></div>
+            <h3 class="hobby-title">Tech Blogging & Content</h3>
+            <p class="hobby-desc">
+              Building and customizing WordPress blogs to document technical insights, project journeys, and CSE topics.
+            </p>
+            <div class="hobby-tag"><i class="fa-brands fa-wordpress"></i> WordPress & Blogging</div>
+          </div>
+
+          <div class="glass-card hobby-card reveal-on-scroll">
+            <div class="hobby-icon-wrapper"><i class="fa-solid fa-brain"></i></div>
+            <h3 class="hobby-title">Mental Wellness & UX</h3>
+            <p class="hobby-desc">
+              Researching user experience design and wellness habits that inspired the creation of the Quinto journaling web app.
+            </p>
+            <div class="hobby-tag"><i class="fa-solid fa-heart-pulse"></i> QUINTO Inspiration</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section (Spotlight Feature: QUINTO) -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-tag">Featured Project Spotlight</div>
+        <h2 class="section-title">Key <span class="text-gradient">Innovations</span></h2>
+        <p class="section-subtitle">Showcasing real-world web application projects currently under active development.</p>
+
+        <!-- QUINTO Spotlight Card -->
+        <div class="glass-card project-spotlight-card reveal-on-scroll">
+          
+          <!-- Project Details Left Column -->
+          <div class="project-info">
+            <div class="project-badge-row">
+              <span class="badge-in-progress">
+                <span class="badge-pulse-dot"></span> In Progress
+              </span>
+            </div>
+
+            <h3 class="project-title">QUINTO</h3>
+            <div class="project-tagline">Wellness Journal Web App</div>
+
+            <p class="project-desc">
+              Quinto is a personal journaling platform focused on mental wellness and user experience. Designed to provide a serene, distraction-free environment for daily reflections and mood tracking.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-primary btn-modal-trigger" data-modal="github">
+                <i class="fa-brands fa-github"></i> GitHub Repository
+              </button>
+              <button class="btn btn-secondary btn-modal-trigger" data-modal="livedemo">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo Preview
+              </button>
+            </div>
+          </div>
+
+          <!-- Interactive QUINTO UI Mockup Right Column -->
+          <div class="quinto-mockup-wrapper">
+            <div class="quinto-widget">
+              <div class="widget-bar">
+                <div class="widget-dots">
+                  <span class="w-dot red"></span>
+                  <span class="w-dot yellow"></span>
+                  <span class="w-dot green"></span>
+                </div>
+                <span class="widget-title">quinto-journal.app — Interactive Demo</span>
+              </div>
+
+              <div class="quinto-app-content">
+                <!-- Daily Prompt -->
+                <div class="quinto-prompt-box">
+                  <div class="prompt-label"><i class="fa-solid fa-sparkles"></i> Daily Prompt</div>
+                  <div class="prompt-text" id="quinto-prompt">"What is one positive moment that made you smile today?"</div>
+                </div>
+
+                <!-- Mood Selector Simulation -->
+                <div class="mood-selector">
+                  <span class="mood-label">How are you feeling right now?</span>
+                  <div class="mood-options">
+                    <button class="mood-btn selected" data-mood="calm" title="Calm">😌</button>
+                    <button class="mood-btn" data-mood="happy" title="Happy">😊</button>
+                    <button class="mood-btn" data-mood="focused" title="Focused">🎯</button>
+                    <button class="mood-btn" data-mood="inspired" title="Inspired">✨</button>
+                    <button class="mood-btn" data-mood="reflective" title="Reflective">💭</button>
+                  </div>
+                </div>
+
+                <!-- Journal Textarea Simulation -->
+                <textarea class="journal-input-sim" id="quinto-input" placeholder="Type a reflection note to test the Quinto UX interface..."></textarea>
+
+                <!-- Footer Status Bar -->
+                <div class="quinto-footer-sim">
+                  <span class="streak-pill"><i class="fa-solid fa-fire"></i> 5 Day Wellness Streak</span>
+                  <span id="quinto-char-count">0 characters</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Certifications & Learning Journey -->
+    <section class="certifications" id="certifications">
+      <div class="container">
+        <div class="section-tag">Continuous Learning</div>
+        <h2 class="section-title">Certifications & <span class="text-gradient">Milestones</span></h2>
+        <p class="section-subtitle">Workshops, diplomas, and technical certifications completed during my academic journey.</p>
+
+        <div class="cert-grid">
+          
+          <div class="glass-card cert-card reveal-on-scroll">
+            <span class="cert-number">01</span>
+            <div class="cert-icon-wrapper"><i class="fa-solid fa-desktop"></i></div>
+            <h3 class="cert-title">Diploma in Computer Application (DCA)</h3>
+            <div class="cert-issuer">Professional Diploma</div>
+          </div>
+
+          <div class="glass-card cert-card reveal-on-scroll">
+            <span class="cert-number">02</span>
+            <div class="cert-icon-wrapper"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3 class="cert-title">Cybersecurity Workshop</h3>
+            <div class="cert-issuer">Conducted by NIT</div>
+          </div>
+
+          <div class="glass-card cert-card reveal-on-scroll">
+            <span class="cert-number">03</span>
+            <div class="cert-icon-wrapper"><i class="fa-brands fa-python"></i></div>
+            <h3 class="cert-title">Core Python Training</h3>
+            <div class="cert-issuer">MSME Technology Centre</div>
+          </div>
+
+          <div class="glass-card cert-card reveal-on-scroll">
+            <span class="cert-number">04</span>
+            <div class="cert-icon-wrapper"><i class="fa-brands fa-wordpress"></i></div>
+            <h3 class="cert-title">Creating Blog in WordPress</h3>
+            <div class="cert-issuer">Coursera Authorized</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+      <div class="container">
+        <div class="section-tag">Academic Background</div>
+        <h2 class="section-title">Education <span class="text-gradient">Timeline</span></h2>
+        <p class="section-subtitle">Academic qualifications and institutional details.</p>
+
+        <div class="edu-timeline">
+          
+          <!-- B.Tech Card -->
+          <div class="glass-card edu-card reveal-on-scroll">
+            <div class="edu-header">
+              <h3 class="edu-degree">B.Tech Computer Science & Engineering</h3>
+              <span class="edu-period">2024 – 2028</span>
+            </div>
+            <div class="edu-institution">
+              <i class="fa-solid fa-building-columns"></i> Rajiv Gandhi College of Engineering and Technology
+            </div>
+            <div class="edu-score-pill">
+              <i class="fa-solid fa-star"></i> Current CGPA: 7.92
+            </div>
+          </div>
+
+          <!-- Higher Secondary Card -->
+          <div class="glass-card edu-card reveal-on-scroll">
+            <div class="edu-header">
+              <h3 class="edu-degree">Higher Secondary (12th Grade — Computer Science)</h3>
+              <span class="edu-period">2020 – 2024</span>
+            </div>
+            <div class="edu-institution">
+              <i class="fa-solid fa-school"></i> Thiruvallur Girls Higher Secondary School
+            </div>
+            <div class="edu-score-pill">
+              <i class="fa-solid fa-award"></i> 12th Percentage: 67.3%
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Have an idea? <span class="text-gradient">Let's talk.</span></h2>
+        <p class="section-subtitle">Open for collaborations, learning opportunities, and discussions on software engineering.</p>
+
+        <div class="contact-container">
+          
+          <!-- Contact Info Left Column -->
+          <div class="glass-card contact-info-card reveal-on-scroll">
+            <h3 class="contact-cta-title">Let's build something <span class="text-gradient">great together</span>.</h3>
+            <p style="color: var(--text-muted);">
+              Whether you want to discuss Quinto, collaborate on a CSE project, or simply connect, feel free to drop me a message!
+            </p>
+
+            <div class="contact-details-list">
+              
+              <!-- Email Item -->
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="fa-regular fa-envelope"></i></div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Email Address</span>
+                  <a href="mailto:dharshininivetha54@gmail.com" class="contact-value">dharshininivetha54@gmail.com</a>
+                </div>
+                <button class="copy-btn" id="copy-email-btn" title="Copy Email Address">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- LinkedIn Item -->
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="contact-item-content">
+                  <span class="contact-label">LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/dharshini-k-292797357" target="_blank" rel="noopener noreferrer" class="contact-value">
+                    Dharshini K Profile <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.75rem; margin-left:2px;"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Contact Form Right Column -->
+          <div class="glass-card contact-form-card reveal-on-scroll">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Alex Morgan" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email</label>
+                <input type="email" id="form-email" class="form-input" placeholder="e.g. alex@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" class="form-input" placeholder="Type your message or project idea here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div>
+        © 2026 Dharshini K. All rights reserved.
+      </div>
+      <div>
+        Designed & Built with <i class="fa-solid fa-heart" style="color: var(--accent-purple);"></i> by Dharshini K
+      </div>
+    </div>
+  </footer>
+
+  <!-- Notification Toast -->
+  <div id="toast" role="status" aria-live="polite">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-cyan);"></i>
+    <span id="toast-message">Message copied to clipboard!</span>
+  </div>
+
+  <!-- Modal Component for Repository / Demo Explanation -->
+  <div class="modal-overlay" id="info-modal">
+    <div class="glass-card modal-card">
+      <div class="modal-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+      <h3 class="modal-title" id="modal-title">Project In Progress</h3>
+      <p class="modal-body" id="modal-body">
+        QUINTO is actively being developed. You can explore the live interactive UI mockup directly in the projects section. The full source code repository will be published upon completion!
+      </p>
+      <button class="btn btn-primary" id="close-modal-btn">Got It!</button>
+    </div>
+  </div>
+
+  <!-- JavaScript Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
